@@ -17,7 +17,7 @@ title: BakaDigest
 email: allinonedibakar@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Collection of digest from different categories including technology, games, movies and anime.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/BakaDigest" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: debakar_roy
 github_username:  dibakarroy1997
