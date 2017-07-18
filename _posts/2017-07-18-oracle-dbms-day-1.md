@@ -35,11 +35,11 @@ From client side, we send a request with the help of SQL(Structured Query Langua
 
 The data is generally organized as a **table** containing **rows** and **columns**. Here's a basic example:
 
-> | ROLL | NAME | 
-> | ------------- |:-------------:| 
-> | 1 | Rahul | 
-> | 2 | Baka | 
-> | 3 | Debakar | 
+| ROLL | NAME | 
+| ------------- |:-------------:| 
+| 1 | Rahul | 
+| 2 | Baka | 
+| 3 | Debakar | 
 
 <br />
 
@@ -126,9 +126,11 @@ Then after all this, we were told about the **entities, relation, attributes and
 Then we were taught about the ER-Diagram in more depth. Few Diagrams we came to know about are as follows:
 
 ![](http://static3.creately.com/blog/wp-content/uploads/2012/03/ER-Diagram-Elements.jpeg)
+
 <br />
+
 ![](https://image.slidesharecdn.com/topic-0304-131211014219-phpapp01/95/topic-03-04-entity-relationship-modelling-32-638.jpg?cb=1415320739)
-###### NOTE: This pictures are taken from the internet. Yep I did a little bit of research. 
+###### NOTE: These pictures are taken from the internet. Yep I did a little bit of research. 
 <hr><br />
 
 Rahul sir have also given us some definitions on some of the basic terminologies. This includes **Entity, Relationship, Keys, Super keys, Candidate keys**. 
