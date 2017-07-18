@@ -5,7 +5,9 @@ date:   2017-07-18
 ---
 
 
+![](http://www.icarus.pt/wp-content/uploads/2015/02/OracleDatabase-01.png)
 
+<hr><br />
 
 In this post, I am going to wrap up all the things I learned during my first class on 'DBMS with Oracle'. The training lecture is given by '**Rahul Sohal**', CTO & Resource Management Lead of [iandwe.in](https://secure.iandwe.in/). 
 
