@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "[Training]DBMS with Oracle Day 1"
-date:   2017-07-18
+title:  "[Training]DBMS with Oracle Day 3"
+date:   2017-07-20
 ---
 
 ![](http://www.icarus.pt/wp-content/uploads/2015/02/OracleDatabase-01.png)
@@ -604,4 +604,4 @@ Thank you for reading. Hope you like it.
 
 And don't forget download this document for all the basic SQL commands explained with examples.
 
-[<img src="https://cdn1.iconfinder.com/data/icons/hawcons/32/698930-icon-97-folder-download-128.png">](https://goo.gl/TqosEq)
+[<img src="http://i.imgur.com/KQgJNrSg.png">](https://goo.gl/TqosEq)
