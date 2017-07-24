@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "[Training]DBMS with Oracle Day 1"
+title:  "[Training] DBMS with Oracle Day 1"
 date:   2017-07-18
 ---
 
 
-![](http://www.icarus.pt/wp-content/uploads/2015/02/OracleDatabase-01.png)
+![](http://i.imgur.com/bDVJGg3.png)
 
 <hr><br />
 

@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "[Training]DBMS with Oracle Day 3"
+title:  "[Training] DBMS with Oracle Day 3"
 date:   2017-07-20
 ---
 
 
-![](http://www.icarus.pt/wp-content/uploads/2015/02/OracleDatabase-01.png)
+![](http://i.imgur.com/vJoCZWa.png)
 
 <hr><br />
 Welcome back readers. Before I start, I want to say that I skip writing up blog yesterday. That is, I am currently writing this on my third day of Training. This is the second blog post in the series of blog post I am doing. If you haven't read the first blog then [click here to read it right ow](https://dibakarroy1997.github.io/BakaDigest/2017/07/18/oracle-dbms-day-1.html).
