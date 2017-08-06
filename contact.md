@@ -2,12 +2,12 @@
 layout: page
 title: Contact
 permalink: /contact/
-order: 5
+order: 2
 ---
 
-<h4>We would love to here from you guys. Write up your Precious feedback in the form below.
+<h4>I would love to here from you guys. Write up your Precious feedback in the form below.
 
-You can share your finding or may even submit your own post which we may feature in our guest article.</h4>
+You can share your finding or may even submit your own post which I may feature in my guest article.</h4>
 
 <h5>NOTE: Please keep a check on your mail for our reply.</h5>
 
