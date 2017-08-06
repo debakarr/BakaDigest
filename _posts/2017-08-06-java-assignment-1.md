@@ -2,7 +2,7 @@
 
 layout: post
 
-title:  "[OOP (CS 594D)] Aassignment 1"
+title:  "[OOP (CS 594D)] Assignment 1"
 
 date:   2017-08-06
 
