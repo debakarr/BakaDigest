@@ -7,6 +7,17 @@ title:  "[OOP (CS 594D)] Assignment 1"
 date:   2017-08-06
 
 ---
+
+
+
+
+
+![](http://i.imgur.com/HK073Al.jpg)
+
+
+
+<hr><br />
+
 ## Assignment 1
 * **Write a Java program to print "Hello World".**
 
