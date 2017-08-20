@@ -2,6 +2,7 @@
 layout: post
 title:  "[Training] DBMS with Oracle Day 3"
 date:   2017-07-20
+comments: true
 ---
 
 

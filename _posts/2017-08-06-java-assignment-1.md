@@ -1,11 +1,8 @@
 ---
-
 layout: post
-
 title:  "[OOP (CS 594D)] Assignment 1"
-
 date:   2017-08-06
-
+comments: true
 ---
 
 

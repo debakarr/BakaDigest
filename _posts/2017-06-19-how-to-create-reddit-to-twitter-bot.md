@@ -2,6 +2,7 @@
 layout: post
 title:  "How to build a reddit to twitter bot"
 date:   2017-06-19
+comments: true
 ---
 
 

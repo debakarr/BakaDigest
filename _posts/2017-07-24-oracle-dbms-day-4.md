@@ -1,11 +1,8 @@
 ---
-
 layout: post
-
 title:  "[Training] DBMS with Oracle Day 4"
-
 date:   2017-07-24
-
+comments: true
 ---
 
 
