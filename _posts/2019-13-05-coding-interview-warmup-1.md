@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Coding Interview: Warm Up - 01"
-date:   2018-01-26
+date:   2019-05-13
 comments: true
 ---
 
