@@ -10,6 +10,7 @@ comments: true
 ### FizzBuzz
 
 [Link to original Problem on LeetCode](https://leetcode.com/problems/fizz-buzz/)
+
 Write a program that outputs the string representation of numbers from 1 to n.
 
 But for multiples of three it should output “Fizz” instead of the number and for the multiples of five output “Buzz”. For numbers which are multiples of both three and five output “FizzBuzz”.
@@ -60,6 +61,6 @@ Now, in arithmetic, python treats booleans as integers. **True** is treated as *
 
 In the code ```not i % 3``` will return a boolean which then can be multipled with **Fizz**. Depending on whether the number is divisible by 3 or not we will get the output. Same goes for **Buzz**. If the number is divisible by both 3 and 5 then we are using string concatenation to get **FizzBuzz**.
 
-Empty string are considered False. That's why when we are using **or** in between to make sure if the number is not divisible by either 3 or 5 then use the string typecast version of the number.
+Empty string are considered False. That's why we are using **or** in between to make sure if the number is not divisible by either 3 or 5 then use the string typecast version of the number.
 
 We have use string comprehension to do all this in one line.
