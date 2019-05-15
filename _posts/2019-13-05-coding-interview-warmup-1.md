@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Coding Interview: Warm Up"
+date:   2019-05-13
+comments: true
+---
+
 ### FizzBuzz
 
 [Link to original Problem on LeetCode](https://leetcode.com/problems/fizz-buzz/)
