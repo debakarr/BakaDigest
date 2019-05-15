@@ -1,17 +1,10 @@
----
-layout: post
-title:  "Coding Interview: Warm Up"
-date:   2019-05-13
-comments: true
----
-
 ### FizzBuzz
 
 [Link to original Problem on LeetCode](https://leetcode.com/problems/fizz-buzz/)
 
 Write a program that outputs the string representation of numbers from 1 to n.
 
-But for multiples of three it should output “Fizz” instead of the number and for the multiples of five output “Buzz”. For numbers which are multiples of both three and five output “FizzBuzz”.
+But for multiples of three, it should output “Fizz” instead of the number and for the multiples of five output “Buzz”. For numbers which are multiples of both three and five output “FizzBuzz”.
 
 > Example:
 >
@@ -49,7 +42,7 @@ class Solution(object):
 
 **Explanation**
 
-In python if you multiply any string to integer you will get the same string repeated the same number of the you multiplied it.
+In python, if you multiply any string to an integer you will get the same string repeated the same number of you multiplied it.
 ```python
 >>>'Fizz' * 3
 'FizzFizzFizz'
@@ -57,13 +50,13 @@ In python if you multiply any string to integer you will get the same string rep
 
 Now, in arithmetic, python treats booleans as integers. **True** is treated as *1* and **False** is treated as *0*.
 
-In the code ```not i % 3``` will return a boolean which then can be multipled with **Fizz**. Depending on whether the number is divisible by 3 or not we will get the output. Same goes for **Buzz**. If the number is divisible by both 3 and 5 then we are using string concatenation to get **FizzBuzz**.
+In the code ```not i % 3``` will return a boolean which then can be multiplied with **Fizz**. Depending on whether the number is divisible by 3 or not we will get the output. The same goes for **Buzz**. If the number is divisible by both 3 and 5 then we are using string concatenation to get **FizzBuzz**.
 
-Empty string are considered False. That's why we are using **or** in between to make sure if the number is not divisible by either 3 or 5 then use the string typecast version of the number.
+An empty string is considered False. That's why we are using **or** in between to make sure if the number is not divisible by either 3 or 5 then use the string typecast version of the number.
 
 We have use string comprehension to do all this in one line.
 
-[========]
+<hr><br />
 
 ### Subarray Sum Equals K
 
@@ -76,7 +69,7 @@ Example 1:
 Output: 2
 
 Note:
-1. The length of the array is in range [1, 20,000].
+1. The length of the array is in the range [1, 20,000].
 2. The range of numbers in the array is [-1000, 1000] and the range of the integer k is [-1e7, 1e7].
 
 **My Solution:**
@@ -102,7 +95,7 @@ class Solution(object):
 ```
 
 **Explanation:**
-We are maintaining a variable (*sumNums*) with cumulative sum up to the index we are looking (up to *i*). Also a dictionary is maintained with *cumulative sum* as key and their *count* as value.
+We are maintaining a variable (*sumNums*) with a cumulative sum up to the index we are looking (up to *i*). Also, a dictionary is maintained with *cumulative sum* as key and their *count* as value.
 
 As an example we can take an array : *[2, 1, 3, 6, -3, 3, 5, 1]*
 The cumulative sum for this array will be: *[2, 3, 6, 12, 9, 12, 17, 18]*
@@ -111,12 +104,60 @@ The dictionary will be: {2: 1, 3: 1, 6: 1, 12: 2, 9: 1, 17: 1, 18: 1}
 
 Now if in any point we see the number *k* as cumulative sum, increase the count by 1 (*at index 2*).
 
-Also we increase the count of each time we found a key equals to *cummulative sum - k*
+Also, we increase the count of each time we found a key equals to *cumulative sum - k*
 
-If we see index 7, it has a *cummulative sum = 18*.
+If we see index 7, it has a *cumulative sum = 18*.
 
 So *cummulative sum - k => 18 - 6* = **12**. We have 12 two time in the dictionary (at index 3 and 5).
 
-So if we take the subarray after those index up to the index 7 (from index **4 to 7** and index **6 to 7** ie. subarray [-3, 3, 5, 1] and subarry [5, 1]) then we will have a sum of 6.
+So if we take the subarray after those index up to the index 7 (from index **4 to 7** and index **6 to 7** ie. subarray [-3, 3, 5, 1] and subarray [5, 1]) then we will have a sum of 6.
 
-[========]
+<hr><br />
+
+### Valid Anagram
+
+[Link to original Problem on LeetCode](https://leetcode.com/problems/valid-anagram/)
+
+Given two strings s and t, write a function to determine if t is an anagram of s.
+
+Example 1:
+
+> Input: s = "anagram", t = "nagaram"
+Output: true
+
+Example 2:
+
+> Input: s = "rat", t = "car"
+Output: false
+
+Note:
+You may assume the string contains only lowercase alphabets.
+
+**My Solution:**
+```python
+class Solution(object):
+    def isAnagram(self, s, t):
+        """
+        :type s: str
+        :type t: str
+        :rtype: bool
+        """
+        if len(s) != len(t):
+            return False
+
+        sDict, tDict = {}, {}
+
+        for char in s:
+            sDict[char] = sDict.get(char, 0) + 1
+
+        for char in t:
+            tDict[char] = tDict.get(char, 0) + 1
+
+        return sDict == tDict
+```
+
+**Explanation:**
+
+Maintain a dictionary with the count of each letter encountered till now. At the end just return whether the two dictionaries are equal or not.
+
+<hr><br />
