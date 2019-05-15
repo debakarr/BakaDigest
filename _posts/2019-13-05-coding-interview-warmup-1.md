@@ -1,11 +1,9 @@
 ---
 layout: post
-title:  "Coding Interview: Warm Up - 01"
+title:  "Coding Interview: Warm Up"
 date:   2019-05-13
 comments: true
 ---
-
-# Problem
 
 ### FizzBuzz
 
@@ -64,3 +62,61 @@ In the code ```not i % 3``` will return a boolean which then can be multipled wi
 Empty string are considered False. That's why we are using **or** in between to make sure if the number is not divisible by either 3 or 5 then use the string typecast version of the number.
 
 We have use string comprehension to do all this in one line.
+
+[========]
+
+### Subarray Sum Equals K
+
+[Link to original Problem on LeetCode](https://leetcode.com/problems/subarray-sum-equals-k/)
+
+Given an array of integers and an integer k, you need to find the total number of continuous subarrays whose sum equals to k.
+
+Example 1:
+> Input:nums = [1,1,1], k = 2
+Output: 2
+
+Note:
+1. The length of the array is in range [1, 20,000].
+2. The range of numbers in the array is [-1000, 1000] and the range of the integer k is [-1e7, 1e7].
+
+**My Solution:**
+```python
+class Solution(object):
+    def subarraySum(self, nums, k):
+        """
+        :type nums: List[int]
+        :type k: int
+        :rtype: int
+        """
+        sumNums, countDict, count = 0, {}, 0
+
+        for i in range(len(nums)):
+            sumNums += nums[i]
+            if sumNums == k:
+                count += 1
+            if sumNums - k in countDict:
+                count += countDict[sumNums - k]
+            countDict[sumNums] = countDict.get(sumNums, 0)
+            countDict[sumNums] += 1
+        return count
+```
+
+**Explanation:**
+We are maintaining a variable (*sumNums*) with cumulative sum up to the index we are looking (up to *i*). Also a dictionary is maintained with *cumulative sum* as key and their *count* as value.
+
+As an example we can take an array : *[2, 1, 3, 6, -3, 3, 5, 1]*
+The cumulative sum for this array will be: *[2, 3, 6, 12, 9, 12, 17, 18]*
+The dictionary will be: {2: 1, 3: 1, 6: 1, 12: 2, 9: 1, 17: 1, 18: 1}
+**Let k = 6**
+
+Now if in any point we see the number *k* as cumulative sum, increase the count by 1 (*at index 2*).
+
+Also we increase the count of each time we found a key equals to *cummulative sum - k*
+
+If we see index 7, it has a *cummulative sum = 18*.
+
+So *cummulative sum - k => 18 - 6* = **12**. We have 12 two time in the dictionary (at index 3 and 5).
+
+So if we take the subarray after those index up to the index 7 (from index **4 to 7** and index **6 to 7** ie. subarray [-3, 3, 5, 1] and subarry [5, 1]) then we will have a sum of 6.
+
+[========]
