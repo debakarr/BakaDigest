@@ -12,6 +12,7 @@ You can share your finding or may even submit your own post which I may feature 
 <h5>NOTE: Please keep a check on your mail for our reply.</h5>
 
 <form action="http://formspree.io/allinonedibakar@gmail.com" method="POST">
+    <meta name="referrer" content="origin">
     <label for="name">Name</label>
     <input type="text" id="name" name="name" class="full-width"><br>
     <label for="email">Email Address</label>
