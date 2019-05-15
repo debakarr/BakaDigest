@@ -13,30 +13,30 @@ Write a program that outputs the string representation of numbers from 1 to n.
 
 But for multiples of three, it should output “Fizz” instead of the number and for the multiples of five output “Buzz”. For numbers which are multiples of both three and five output “FizzBuzz”.
 
-> Example:
->
+**Example:**
+
 > n = 15,
->
-> Return:
-> [
->     "1",
->     "2",
->     "Fizz",
->     "4",
->     "Buzz",
->     "Fizz",
->     "7",
->     "8",
->     "Fizz",
->     "Buzz",
->     "11",
->     "Fizz",
->     "13",
->     "14",
->     "FizzBuzz"
-> ]
+Return:
+[
+    "1",
+    "2",
+    "Fizz",
+    "4",
+    "Buzz",
+    "Fizz",
+    "7",
+    "8",
+    "Fizz",
+    "Buzz",
+    "11",
+    "Fizz",
+    "13",
+    "14",
+    "FizzBuzz"
+]
 
 **My Solution:**
+
 ```python
 class Solution(object):
     def fizzBuzz(self, n):
@@ -47,7 +47,7 @@ class Solution(object):
         return ['Fizz' * (not i % 3) + 'Buzz' * (not i % 5) or str(i) for i in range(1, n + 1)]
 ```
 
-**Explanation**
+**Explanation:**
 
 In python, if you multiply any string to an integer you will get the same string repeated the same number of you multiplied it.
 ```python
@@ -71,7 +71,8 @@ We have use string comprehension to do all this in one line.
 
 Given an array of integers and an integer k, you need to find the total number of continuous subarrays whose sum equals to k.
 
-Example 1:
+**Example 1:**
+
 > Input:nums = [1,1,1], k = 2
 Output: 2
 
@@ -80,6 +81,7 @@ Note:
 2. The range of numbers in the array is [-1000, 1000] and the range of the integer k is [-1e7, 1e7].
 
 **My Solution:**
+
 ```python
 class Solution(object):
     def subarraySum(self, nums, k):
@@ -102,6 +104,7 @@ class Solution(object):
 ```
 
 **Explanation:**
+
 We are maintaining a variable (*sumNums*) with a cumulative sum up to the index we are looking (up to *i*). Also, a dictionary is maintained with *cumulative sum* as key and their *count* as value.
 
 As an example we can take an array : *[2, 1, 3, 6, -3, 3, 5, 1]*
@@ -127,12 +130,12 @@ So if we take the subarray after those index up to the index 7 (from index **4 t
 
 Given two strings s and t, write a function to determine if t is an anagram of s.
 
-Example 1:
+**Example 1:**
 
 > Input: s = "anagram", t = "nagaram"
 Output: true
 
-Example 2:
+**Example 2:**
 
 > Input: s = "rat", t = "car"
 Output: false
@@ -141,6 +144,7 @@ Note:
 You may assume the string contains only lowercase alphabets.
 
 **My Solution:**
+
 ```python
 class Solution(object):
     def isAnagram(self, s, t):
@@ -166,5 +170,47 @@ class Solution(object):
 **Explanation:**
 
 Maintain a dictionary with the count of each letter encountered till now. At the end just return whether the two dictionaries are equal or not.
+
+<hr><br />
+
+### Rotate Array
+
+[Link to original Problem on LeetCode](https://leetcode.com/problems/rotate-array/)
+
+Given an array, rotate the array to the right by k steps, where k is non-negative.
+
+**Example 1:**
+
+> Input: [1,2,3,4,5,6,7] and k = 3
+Output: [5,6,7,1,2,3,4]
+Explanation:
+rotate 1 steps to the right: [7,1,2,3,4,5,6]
+rotate 2 steps to the right: [6,7,1,2,3,4,5]
+rotate 3 steps to the right: [5,6,7,1,2,3,4]
+
+**Example 2:**
+
+> Input: [-1,-100,3,99] and k = 2
+Output: [3,99,-1,-100]
+Explanation:
+rotate 1 steps to the right: [99,-1,-100,3]
+rotate 2 steps to the right: [3,99,-1,-100]
+
+**My Solution:**
+
+```python
+class Solution(object):
+    def rotate(self, nums, k):
+        """
+        :type nums: List[int]
+        :type k: int
+        :rtype: None Do not return anything, modify nums in-place instead.
+        """
+        nums[:] = nums[len(nums) - k:] + nums[:len(nums) - k]
+```
+
+**Explanation:**
+
+We are using python's list slicing feature. Here I am slicing the list first from the element which should come first to the very end and then slice it again till the element which should be present in the end of new list. Then just add this two sliced list and assign to same list and return.
 
 <hr><br />
