@@ -57,7 +57,7 @@ In python, if you multiply any string to an integer you will get the same string
 
 Now, in arithmetic, python treats booleans as integers. **True** is treated as *1* and **False** is treated as *0*.
 
-In the code ```not i % 3``` will return a boolean which then can be multiplied with **Fizz**. Depending on whether the number is divisible by 3 or not we will get the output. The same goes for **Buzz**. If the number is divisible by both 3 and 5 then we are using string concatenation to get **FizzBuzz**.
+In the code *not i % 3* will return a boolean which then can be multiplied with **Fizz**. Depending on whether the number is divisible by 3 or not we will get the output. The same goes for **Buzz**. If the number is divisible by both 3 and 5 then we are using string concatenation to get **FizzBuzz**.
 
 An empty string is considered False. That's why we are using **or** in between to make sure if the number is not divisible by either 3 or 5 then use the string typecast version of the number.
 
@@ -92,8 +92,8 @@ class Solution(object):
         """
         sumNums, countDict, count = 0, {}, 0
 
-        for i in range(len(nums)):
-            sumNums += nums[i]
+        for num in nums:
+            sumNums += num
             if sumNums == k:
                 count += 1
             if sumNums - k in countDict:
