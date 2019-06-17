@@ -98,8 +98,7 @@ class Solution(object):
                 count += 1
             if sumNums - k in countDict:
                 count += countDict[sumNums - k]
-            countDict[sumNums] = countDict.get(sumNums, 0)
-            countDict[sumNums] += 1
+            countDict[sumNums] = countDict.get(sumNums, 0) + 1
         return count
 ```
 
