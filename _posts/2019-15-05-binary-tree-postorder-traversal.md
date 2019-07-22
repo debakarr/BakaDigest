@@ -24,6 +24,9 @@ Given a binary tree, return the *postorder* traversal of its nodes' values.
 
 **Follow up**: Recursive solution is trivial, could you do it iteratively?
 
+**Company:**
+*Microsoft*, *Amazon*
+
 **Recursive Solution:**
 
 ```python

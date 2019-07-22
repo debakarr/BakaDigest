@@ -25,6 +25,9 @@ Output: 8
 
 Your algorithm should run in linear runtime complexity. Could you implement it using only constant extra space complexity?
 
+**Company:**
+*Amazon*, *Google*
+
 **Solution 1 (Using XOR):**
 
 ```python

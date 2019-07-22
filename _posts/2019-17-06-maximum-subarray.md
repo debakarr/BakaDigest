@@ -20,6 +20,10 @@ Follow up:
 
 If you have figured out the O(n) solution, try coding another solution using the divide and conquer approach, which is more subtle.
 
+**Company:**
+*Facebook*, *Paypal*, *Yahoo*, *Microsoft*, *LinkedIn*, *Amazon*, *Goldman Sachs*
+
+
 **Solution 1 (Kadane’s Algorithm):**
 
 ```python
