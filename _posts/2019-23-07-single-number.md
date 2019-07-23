@@ -41,6 +41,7 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
+        # Keep a dictionary count and at the end just check whether any number has a count of 1
         numCount = {}
         
         for num in nums:
@@ -63,7 +64,9 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        return 2*sum(set(nums)) - sum(nums)
+        # We know that every number except the number whose count is one is repeated twice
+        # Therefore if we multiply all unique number with 2 and then subtract it with the sum of the list we should get our desire output
+        return 2 * sum(set(nums)) - sum(nums)
 ```
 
 **Solution (Using XOR):**
