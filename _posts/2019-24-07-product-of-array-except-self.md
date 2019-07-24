@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[LeetCode] 238. Product of Array Except Self"
-date:   2019-07-23
+date:   2019-07-24
 comments: true
 ---
 

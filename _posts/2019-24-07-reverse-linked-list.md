@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[LeetCode] 206. Reverse Linked List"
-date:   2019-07-23
+date:   2019-07-24
 comments: true
 ---
 
