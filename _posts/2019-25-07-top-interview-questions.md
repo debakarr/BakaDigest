@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Top Programming Questions"
-date:   2019-07-25
+title:  "Top Programming Questions [Updated]"
+date:   2019-08-27
 comments: true
 ---
 
-### Top Programming Questions
+### Top Programming Questions [Updated]
 
 <hr class="line dotted question-list-hr" style="margin: 10px 0px 0px; border-top-style: dotted; border-radius: 0px; padding: 0px; color: rgb(51, 51, 51);">
 <div class="table-responsive question-list-table" style="border: 0px; color: rgb(51, 51, 51);">
@@ -75,10 +75,10 @@ comments: true
         <td label="[object Object]" style="line-height: 1.42857; border-top: 0px;" value="[object Object]"><span class="label label-warning round" style="font-size: 10.5px; border-radius: 1020px;">Medium</span></td><td label="[object Object]" style="line-height: 1.42857; border-top: 0px;" value="[object Object]"><a href="https://dibakarroy1997.github.io/BakaDigest/2019/07/24/product-of-array-except-self.html" target="_blank">Click Here</a></td>
       </tr>
       <tr style="transition: all 0.1s ease 0s;">
-        <td label="[object Object]" style="line-height: 1.42857; border-top: 0px;">347</td>
+        <td label="[object Object]" style="line-height: 1.42857; border-top: 0px;"></td>
         <td label="[object Object]" style="line-height: 1.42857; border-top: 0px;" value="Top K Frequent Elements"><a href="https://leetcode.com/problems/top-k-frequent-elements" style="color: rgb(0, 136, 204);">Top K Frequent Elements</a> &nbsp;&nbsp;&nbsp;</td>
         <td label="[object Object]" style="line-height: 1.42857; border-top: 0px;" value="55.73578967645418">55.7%</td>
-        <td label="[object Object]" style="line-height: 1.42857; border-top: 0px;" value="[object Object]"><span class="label label-warning round" style="font-size: 10.5px; border-radius: 1020px;">Medium</span></td><td label="[object Object]" style="line-height: 1.42857; border-top: 0px;" value="[object Object]"><br></td>
+        <td label="[object Object]" style="line-height: 1.42857; border-top: 0px;" value="[object Object]"><span class="label label-warning round" style="font-size: 10.5px; border-radius: 1020px;">Medium</span></td><td label="[object Object]" style="line-height: 1.42857; border-top: 0px;" value="[object Object]"><a href="https://dibakarroy1997.github.io/BakaDigest/2019/08/02/top-k-frequent-elements.html" target="_blank">Click Here</a></td>
       </tr>
       <tr style="background: rgb(250, 250, 250); transition: all 0.1s ease 0s;">
         <td label="[object Object]" style="line-height: 1.42857; border-top: 0px;">283</td>
@@ -96,7 +96,7 @@ comments: true
         <td label="[object Object]" style="line-height: 1.42857; border-top: 0px;">78</td>
         <td label="[object Object]" style="line-height: 1.42857; border-top: 0px;" value="Subsets"><a href="https://leetcode.com/problems/subsets" style="color: rgb(0, 136, 204);">Subsets</a> &nbsp;&nbsp;&nbsp;</td>
         <td label="[object Object]" style="line-height: 1.42857; border-top: 0px;" value="53.92103187748533">53.9%</td>
-        <td label="[object Object]" style="line-height: 1.42857; border-top: 0px;" value="[object Object]"><span class="label label-warning round" style="font-size: 10.5px; border-radius: 1020px;">Medium</span></td><td label="[object Object]" style="line-height: 1.42857; border-top: 0px;" value="[object Object]"><br></td>
+        <td label="[object Object]" style="line-height: 1.42857; border-top: 0px;" value="[object Object]"><span class="label label-warning round" style="font-size: 10.5px; border-radius: 1020px;">Medium</span></td><td label="[object Object]" style="line-height: 1.42857; border-top: 0px;" value="[object Object]"><a href="https://dibakarroy1997.github.io/BakaDigest/2019/08/08/subsets.html" target="_blank">Click Here</a></td>
       </tr>
       <tr style="transition: all 0.1s ease 0s;">
         <td label="[object Object]" style="line-height: 1.42857; border-top: 0px;">169</td>
@@ -503,7 +503,7 @@ comments: true
       <tr style="background: rgb(250, 250, 250); transition: all 0.1s ease 0s;">
         <td label="[object Object]" style="line-height: 1.42857; border-top: 0px;">236</td>
         <td label="[object Object]" style="line-height: 1.42857; border-top: 0px;" value="Lowest Common Ancestor of a Binary Tree"><a href="https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree" style="color: rgb(0, 136, 204);">Lowest Common Ancestor of a Binary Tree</a> &nbsp;&nbsp;&nbsp;</td>
-        <td label="[object Object]" style="line-height: 1.42857; border-top: 0px;" value="38.40573476334343">38.4%</td>
+        <td label="[object Object]" style="line-height: 1.42857; border-top: 0px;" value="38.40576334343">38.4%</td>
         <td label="[object Object]" style="line-height: 1.42857; border-top: 0px;" value="[object Object]"><span class="label label-warning round" style="font-size: 10.5px; border-radius: 1020px;">Medium</span></td><td label="[object Object]" style="line-height: 1.42857; border-top: 0px;" value="[object Object]"><br></td>
       </tr>
       <tr style="transition: all 0.1s ease 0s;">
