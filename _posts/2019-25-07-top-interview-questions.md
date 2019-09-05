@@ -149,14 +149,14 @@ comments: true
 <td><a href="https://leetcode.com/problems/kth-smallest-element-in-a-bst">Kth Smallest Element in a BST</a></td>
 <td>52.4%</td>
 <td>Medium</td>
-<td>WIP</td>
+<td><a href="https://dibakarroy1997.github.io/BakaDigest/2019/09/05/kth-smallest-element-in-a-bst.html">Click Here</a></td>
 </tr>
 <tr>
 <td>171</td>
 <td><a href="https://leetcode.com/problems/excel-sheet-column-number">Excel Sheet Column Number</a></td>
 <td>51.9%</td>
 <td>Easy</td>
-<td>WIP</td>
+<td><a href="https://dibakarroy1997.github.io/BakaDigest/2019/09/05/excel-sheet-column-number.html">Click Here</a></td>
 </tr>
 <tr>
 <td>108</td>
@@ -293,7 +293,7 @@ comments: true
 </tr>
 <tr>
 <td>118</td>
-<td><a href="https://leetcode.com/problems/pascals-triangle">Pascal's Triangle</a></td>
+<td><a href="https://leetcode.com/problems/pascals-triangle">Pascal&#39;s Triangle</a></td>
 <td>47.0%</td>
 <td>Easy</td>
 <td>WIP</td>
