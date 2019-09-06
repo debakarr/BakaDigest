@@ -53,7 +53,7 @@ comments: true
          <td style="padding: 2px 5px; vertical-align: middle; min-width: 5px; border: 1px solid rgb(221, 221, 221); user-select: text; width: 97.6px;">Medium</td>
          <td style="padding: 2px 5px; vertical-align: middle; min-width: 5px; border: 1px solid rgb(221, 221, 221); user-select: text;"><a href="https://dibakarroy1997.github.io/BakaDigest/2019/05/15/binary-tree-inorder-traversal.html" style="color: rgb(0, 152, 247); transition: color 0.2s ease 0s, text-decoration 0.2s ease 0s; user-select: auto;">Click Here</a></td>
       </tr>
-      <tr style="border-top: 1px solid rgb(239, 239, 239); user-select: none; background: rgb(239, 239, 239);">
+      <tr style="border-top: 1px solid rgb(239, 239, 239); user-select: none;"> 
          <td style="padding: 2px 5px; vertical-align: middle; min-width: 5px; border: 1px solid rgb(221, 221, 221); user-select: text;">46</td>
          <td style="padding: 2px 5px; vertical-align: middle; min-width: 5px; border: 1px solid rgb(221, 221, 221); user-select: text;"><a href="https://leetcode.com/problems/permutations" style="color: rgb(0, 152, 247); transition: color 0.2s ease 0s, text-decoration 0.2s ease 0s; user-select: auto;">Permutations</a></td>
          <td style="padding: 2px 5px; vertical-align: middle; min-width: 5px; border: 1px solid rgb(221, 221, 221); user-select: text; width: 123.2px;">56.3%</td>
